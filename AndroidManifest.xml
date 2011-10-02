@@ -12,7 +12,7 @@
 		android:label="@string/app_name"
 		android:theme="@android:style/Theme.Light">
 		<activity
-			android:name=".DrawableXmlDemoActivity"
+			android:name=".MenuActivity"
 			android:label="@string/app_name">
 			<intent-filter>
 				<action
@@ -21,6 +21,11 @@
 					android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
+		<activity
+			android:name=".DrawableXmlDemoActivity" />
+		<activity
+			android:name=".ButtonDemoActivity" />
 
 	</application>
 </manifest>
