@@ -30,9 +30,13 @@ public class DrawableXmlDemoActivity extends Activity {
 		addDrawable(container, "shape_oval.xml", R.drawable.shape_oval, 50, 100);
 		addDrawable(container, "shape_ring.xml", R.drawable.shape_ring, 75, 75);
 		addDrawable(container, "shape_line.xml", R.drawable.shape_line, 25, 100);
-		addDrawable(container, "shape_gradient.xml", R.drawable.shape_gradient, 75, 100);
+		addDrawable(container, "shape_gradient.xml", R.drawable.shape_gradient, 100, 100);
+		addDrawable(container, "shape_gradient_radial.xml", R.drawable.shape_gradient_radial, 100, 100);
+		addDrawable(container, "shape_gradient_sweep.xml", R.drawable.shape_gradient_sweep, 100, 100);
 		addDrawable(container, "shape_stroke.xml", R.drawable.shape_stroke, 75, 100);
 		addDrawable(container, "shape_corners.xml", R.drawable.shape_corners, 75, 100);
+		addDrawable(container, "layer_list.xml", R.drawable.layer_list, 100, 100);
+		addDrawable(container, "bitmap_tile.xml", R.drawable.bitmap_tile, 110, 190);
 	}
 
 	public void addDrawable(ViewGroup container, String label, int resId, int heightDp, int widthDp) {

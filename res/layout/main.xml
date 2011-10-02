@@ -4,10 +4,64 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
 	<LinearLayout
-		android:id="@+id/container"
 		android:orientation="vertical"
 		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:gravity="center_horizontal"
-		android:padding="10dp" />
+		android:layout_height="wrap_content">
+		<LinearLayout
+			android:id="@+id/container"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:padding="10dp" />
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Layer List - ToggleButton" />
+			<ToggleButton
+				android:layout_width="100dp"
+				android:layout_height="wrap_content"
+				android:layout_margin="20dp" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Selector Drawable - Button" />
+			<Button
+				android:layout_width="100dp"
+				android:layout_height="wrap_content"
+				android:layout_margin="20dp"
+				android:text="A Button" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Clip Drawables - ProgressBar" />
+			<ProgressBar
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:layout_margin="20dp"
+				android:progress="75"
+				android:max="100"
+				style="@android:style/Widget.ProgressBar.Horizontal" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Rotate Drawables - ProgressBar" />
+			<ProgressBar
+				android:layout_width="75dp"
+				android:layout_height="75dp"
+				android:layout_margin="20dp"
+				android:indeterminate="true"
+				style="@android:style/Widget.ProgressBar.Large" />
+
+		</LinearLayout>
+	</LinearLayout>
 </ScrollView>
